@@ -1,0 +1,2234 @@
+{
+  "title": "电影里的绿",
+  "collection": "green",
+  "updated": "2026-10-26",
+  "seasons": [
+    {
+      "id": "spring",
+      "label": "春 · 初生与田野",
+      "description": "从轻盈的草地到战争中的野花。这里同时收录有剧情依据的春季，以及明确标注的春意观感。"
+    },
+    {
+      "id": "summer",
+      "label": "夏 · 丰盛与树荫",
+      "description": "夏日的绿可以明亮、潮润，也可以偏黄、浓重；阳光与阴影之间的差别尤其明显。"
+    },
+    {
+      "id": "autumn",
+      "label": "秋 · 红叶之间的绿",
+      "description": "当红橙色成为主角，水面、灌木与仍未枯黄的草地保留着另一条绿色线索。"
+    },
+    {
+      "id": "winter",
+      "label": "冬 · 接近灰与蓝",
+      "description": "以雪、松树和圣诞树摊为线索。保留接近灰色、青蓝色的边界样本，不把植物颜色强行归为绿色。"
+    },
+    {
+      "id": "unseasoned",
+      "label": "跨季节 · 人造光与幻想",
+      "description": "绿色也属于都市夜景、室内光线、科幻与神话。这些镜头按主题并置，不作确定的季节判断。"
+    }
+  ],
+  "themes": [
+    {
+      "id": "nature",
+      "label": "自然"
+    },
+    {
+      "id": "romance",
+      "label": "爱情"
+    },
+    {
+      "id": "fantasy",
+      "label": "奇幻"
+    },
+    {
+      "id": "scifi",
+      "label": "科幻"
+    },
+    {
+      "id": "suspense",
+      "label": "悬疑"
+    },
+    {
+      "id": "urban",
+      "label": "都市"
+    },
+    {
+      "id": "war",
+      "label": "战争"
+    },
+    {
+      "id": "animation",
+      "label": "动画"
+    },
+    {
+      "id": "family",
+      "label": "家庭"
+    }
+  ],
+  "films": [
+    {
+      "id": "sound-of-music",
+      "title": "音乐之声",
+      "originalTitle": "The Sound of Music",
+      "year": 1965,
+      "director": "Robert Wise",
+      "season": "spring",
+      "seasonLabel": "春意 · 画面观感",
+      "seasonEvidence": "以开阔草坡与新鲜草色归入春意；未确认此镜头的剧情月份。",
+      "themes": [
+        "nature",
+        "family"
+      ],
+      "caption": "远景里，大片草坡从黄绿过渡到被树荫压暗的橄榄绿。",
+      "analysis": "同一片山野的绿色并不均匀：前景更暖，中景树林更暗，远坡在空气透视中减弱。这里的绿色让空间显得开阔、可亲。",
+      "image": "assets/frames/sound-of-music.jpg",
+      "width": 1280,
+      "height": 580,
+      "sha256": "931dc0f60e6d90e2d669850dbbb2ac112288032464d147021ac159a229a06bf8",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2019/05/07/the-sound-of-music/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/soundofmusic003.jpg?bwg=1551292389",
+      "frameLabel": "soundofmusic003；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "前景草地",
+          "rect": [
+            100,
+            455,
+            300,
+            95
+          ],
+          "hex": "#595C1D",
+          "h": 62.86,
+          "l": 37.603,
+          "c": 36.088,
+          "nearestId": 4,
+          "deltaE": 9.105,
+          "iqr": [
+            15.0,
+            14.0,
+            13.0
+          ],
+          "pixels": 28500
+        },
+        {
+          "label": "中景树林",
+          "rect": [
+            190,
+            370,
+            210,
+            45
+          ],
+          "hex": "#21230F",
+          "h": 66.0,
+          "l": 12.984,
+          "c": 13.532,
+          "nearestId": 4,
+          "deltaE": 24.372,
+          "iqr": [
+            11.0,
+            11.0,
+            9.0
+          ],
+          "pixels": 9450
+        },
+        {
+          "label": "远坡草地",
+          "rect": [
+            858,
+            298,
+            61,
+            20
+          ],
+          "hex": "#333F30",
+          "h": 108.0,
+          "l": 25.175,
+          "c": 11.326,
+          "nearestId": 4,
+          "deltaE": 17.086,
+          "iqr": [
+            26.0,
+            26.0,
+            17.0
+          ],
+          "pixels": 1220
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "pride-prejudice",
+      "title": "傲慢与偏见",
+      "originalTitle": "Pride & Prejudice",
+      "year": 2005,
+      "director": "Joe Wright",
+      "season": "spring",
+      "seasonLabel": "春意 · 画面观感",
+      "seasonEvidence": "以明亮草坪、繁叶与池塘倒影归入春意；不据此判断影片全部情节的季节。",
+      "themes": [
+        "nature",
+        "romance"
+      ],
+      "caption": "草坪的黄绿、树冠的深绿和水中的倒影构成三个明度层次。",
+      "analysis": "爱情片中的乡野绿可以很轻盈。亮草坪把目光带向人物，深色枝叶与水面则让画面安静下来。",
+      "image": "assets/frames/pride-prejudice.jpg",
+      "width": 1280,
+      "height": 544,
+      "sha256": "57d74cffa67dc03dc58d59772ce5e39401e8174dd0bc96617b348300d3a4e180",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2020/07/14/pride-prejudice/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/Pride__Prejudice_017.jpg?bwg=1569601078",
+      "frameLabel": "Pride  Prejudice 017；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "阳光草地",
+          "rect": [
+            180,
+            316,
+            220,
+            54
+          ],
+          "hex": "#BBCF75",
+          "h": 73.33,
+          "l": 79.884,
+          "c": 47.136,
+          "nearestId": 11,
+          "deltaE": 7.342,
+          "iqr": [
+            27.0,
+            23.0,
+            31.0
+          ],
+          "pixels": 11880
+        },
+        {
+          "label": "树冠绿叶",
+          "rect": [
+            860,
+            30,
+            160,
+            90
+          ],
+          "hex": "#383D1F",
+          "h": 70.0,
+          "l": 24.568,
+          "c": 19.382,
+          "nearestId": 4,
+          "deltaE": 15.969,
+          "iqr": [
+            31.0,
+            34.0,
+            21.0
+          ],
+          "pixels": 14400
+        },
+        {
+          "label": "水面倒影",
+          "rect": [
+            600,
+            492,
+            300,
+            43
+          ],
+          "hex": "#4F5837",
+          "h": 76.36,
+          "l": 35.825,
+          "c": 20.517,
+          "nearestId": 4,
+          "deltaE": 7.382,
+          "iqr": [
+            19.0,
+            21.0,
+            22.0
+          ],
+          "pixels": 12900
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "1917",
+      "title": "1917",
+      "originalTitle": "1917",
+      "year": 2019,
+      "director": "Sam Mendes",
+      "season": "spring",
+      "seasonLabel": "春季 · 剧情依据",
+      "seasonEvidence": "故事从 1917 年 4 月 6 日开始；所选画面可见草地、野花与军装。",
+      "themes": [
+        "war",
+        "nature"
+      ],
+      "caption": "苍白天空下的草地和卡其军装，几乎共享一组低饱和的黄绿色。",
+      "analysis": "春天在这里不只意味着希望。柔软的野花与士兵的疲惫并置，草地的绿也与军服、树皮的灰褐色相连。",
+      "image": "assets/frames/1917.jpg",
+      "width": 1280,
+      "height": 533,
+      "sha256": "c4178763f687fdf9dcbf9e68fb1e06d5bcde83a886bb50c8b81da438e55169ac",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [
+        {
+          "title": "Scriptnotes：编剧讲述 4 月 6 日的选择",
+          "url": "https://johnaugust.com/2020/scriptnotes-bonus-1917-qa-transcript"
+        }
+      ],
+      "sourcePage": "https://film-grab.com/2020/09/01/1917/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/1917_002.jpg?bwg=1598511562",
+      "frameLabel": "1917 002；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "远处草地",
+          "rect": [
+            282,
+            229,
+            320,
+            43
+          ],
+          "hex": "#9DA879",
+          "h": 74.04,
+          "l": 66.941,
+          "c": 25.996,
+          "nearestId": 11,
+          "deltaE": 13.396,
+          "iqr": [
+            14.0,
+            14.0,
+            24.0
+          ],
+          "pixels": 13760
+        },
+        {
+          "label": "近处草叶",
+          "rect": [
+            333,
+            330,
+            154,
+            53
+          ],
+          "hex": "#6A792E",
+          "h": 72.0,
+          "l": 48.18,
+          "c": 42.001,
+          "nearestId": 4,
+          "deltaE": 8.623,
+          "iqr": [
+            28.0,
+            21.0,
+            25.0
+          ],
+          "pixels": 8162
+        },
+        {
+          "label": "军服布料",
+          "rect": [
+            794,
+            437,
+            128,
+            64
+          ],
+          "hex": "#29261D",
+          "h": 45.0,
+          "l": 15.203,
+          "c": 6.506,
+          "nearestId": 4,
+          "deltaE": 26.013,
+          "iqr": [
+            23.0,
+            18.0,
+            13.0
+          ],
+          "pixels": 8192
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "call-me-by-your-name",
+      "title": "请以你的名字呼唤我",
+      "originalTitle": "Call Me by Your Name",
+      "year": 2017,
+      "director": "Luca Guadagnino",
+      "season": "summer",
+      "seasonLabel": "夏季 · 剧情依据",
+      "seasonEvidence": "发行方剧情介绍明确为 1983 年意大利北部的夏天。",
+      "themes": [
+        "nature",
+        "romance"
+      ],
+      "caption": "远处深绿树木与近处明亮的田野草叶，把骑车的人物包在绿意中。",
+      "analysis": "田野的黄绿、树影的冷绿与偏蓝的天空相互区分。饱满的绿让夏日显得充沛，却没有把所有植被涂成同一种颜色。",
+      "image": "assets/frames/call-me-by-your-name.jpg",
+      "width": 1280,
+      "height": 706,
+      "sha256": "af2e868cee1fb2b19f7ef420994918b3cd0d868f3412ccc23a3b4672b4437482",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [
+        {
+          "title": "Sony Pictures 影片介绍：summer of 1983",
+          "url": "https://www.sonypictures.com/movies/callmebyyourname"
+        }
+      ],
+      "sourcePage": "https://film-grab.com/2019/03/04/call-me-by-your-name/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/callme005.jpg?bwg=1551282795",
+      "frameLabel": "callme005；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "田野草叶",
+          "rect": [
+            80,
+            375,
+            240,
+            60
+          ],
+          "hex": "#54782E",
+          "h": 89.19,
+          "l": 46.331,
+          "c": 44.262,
+          "nearestId": 4,
+          "deltaE": 7.519,
+          "iqr": [
+            18.0,
+            20.0,
+            19.0
+          ],
+          "pixels": 14400
+        },
+        {
+          "label": "远处树木",
+          "rect": [
+            915,
+            295,
+            100,
+            40
+          ],
+          "hex": "#35453F",
+          "h": 157.5,
+          "l": 27.769,
+          "c": 8.015,
+          "nearestId": 4,
+          "deltaE": 18.27,
+          "iqr": [
+            19.0,
+            24.0,
+            16.0
+          ],
+          "pixels": 4000
+        },
+        {
+          "label": "路边草地",
+          "rect": [
+            22,
+            596,
+            82,
+            36
+          ],
+          "hex": "#899F50",
+          "h": 76.71,
+          "l": 62.248,
+          "c": 43.537,
+          "nearestId": 11,
+          "deltaE": 10.24,
+          "iqr": [
+            31.0,
+            20.0,
+            33.25
+          ],
+          "pixels": 2952
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "atonement",
+      "title": "赎罪",
+      "originalTitle": "Atonement",
+      "year": 2007,
+      "director": "Joe Wright",
+      "season": "summer",
+      "seasonLabel": "夏季 · 剧情依据",
+      "seasonEvidence": "所选为庄园段落；发行方的美术访谈将前半部描述为炎热的夏日。",
+      "themes": [
+        "romance",
+        "nature",
+        "war"
+      ],
+      "caption": "阳光中的牧草偏金黄，树荫却向更冷、更暗的绿收缩。",
+      "analysis": "暖草地与深树影形成强烈反差。绿色既有庄园午后的柔美，也让人物周围的空间显得封闭而沉重。",
+      "image": "assets/frames/atonement.jpg",
+      "width": 1278,
+      "height": 688,
+      "sha256": "cc7ef013e66c6c718099b69bd9da7cb1c1ebef98beacf0db719ed5e2b8ded39a",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [
+        {
+          "title": "Focus Features 美术访谈：夏日庄园",
+          "url": "https://www.focusfeatures.com/article/design_of_history__sarah_greenwood_s_atonement?film=atonement"
+        }
+      ],
+      "sourcePage": "https://film-grab.com/2015/01/06/atonement/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/17 (102).jpg?bwg=1547147199",
+      "frameLabel": "17 (102)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "远处牧草",
+          "rect": [
+            880,
+            80,
+            290,
+            75
+          ],
+          "hex": "#9A9A64",
+          "h": 60.0,
+          "l": 62.425,
+          "c": 29.68,
+          "nearestId": 11,
+          "deltaE": 14.244,
+          "iqr": [
+            12.0,
+            10.0,
+            9.0
+          ],
+          "pixels": 21750
+        },
+        {
+          "label": "路旁绿草",
+          "rect": [
+            650,
+            319,
+            180,
+            46
+          ],
+          "hex": "#565F3C",
+          "h": 75.43,
+          "l": 38.706,
+          "c": 21.424,
+          "nearestId": 4,
+          "deltaE": 5.214,
+          "iqr": [
+            19.0,
+            23.0,
+            11.0
+          ],
+          "pixels": 8280
+        },
+        {
+          "label": "深色树荫",
+          "rect": [
+            170,
+            80,
+            170,
+            70
+          ],
+          "hex": "#0C1214",
+          "h": 195.0,
+          "l": 5.07,
+          "c": 2.49,
+          "nearestId": 4,
+          "deltaE": 33.367,
+          "iqr": [
+            2.0,
+            3.0,
+            2.0
+          ],
+          "pixels": 11900
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "moonrise",
+      "title": "月升王国",
+      "originalTitle": "Moonrise Kingdom",
+      "year": 2012,
+      "director": "Wes Anderson",
+      "season": "summer",
+      "seasonLabel": "夏季 · 剧情依据",
+      "seasonEvidence": "发行方剧情介绍明确设定在 1965 年夏天。",
+      "themes": [
+        "family",
+        "romance",
+        "nature"
+      ],
+      "caption": "俯拍的草坪与童子军制服都偏黄，形成温暖的橄榄绿色系。",
+      "analysis": "绿色被纳入卡其、棕黄的统一配色中。即使画面来自户外，它也带着整齐、克制的童话感。",
+      "image": "assets/frames/moonrise.jpg",
+      "width": 1024,
+      "height": 554,
+      "sha256": "f770cb5517f1ea9764819763c2df66dee8ff3061a92e7df01007034e015b67a1",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [
+        {
+          "title": "Focus Features 影片介绍：summer of 1965",
+          "url": "https://www.focusfeatures.com/moonrise_kingdom"
+        }
+      ],
+      "sourcePage": "https://film-grab.com/2013/01/20/moonrise-kingdom/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/08 (704).jpg?bwg=1547237545",
+      "frameLabel": "08 (704)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "左上草坪",
+          "rect": [
+            31,
+            22,
+            256,
+            72
+          ],
+          "hex": "#494D09",
+          "h": 63.53,
+          "l": 31.217,
+          "c": 37.573,
+          "nearestId": 4,
+          "deltaE": 12.949,
+          "iqr": [
+            23.0,
+            17.0,
+            13.0
+          ],
+          "pixels": 18432
+        },
+        {
+          "label": "左下草坪",
+          "rect": [
+            30,
+            390,
+            100,
+            100
+          ],
+          "hex": "#5A510F",
+          "h": 52.8,
+          "l": 34.177,
+          "c": 37.441,
+          "nearestId": 4,
+          "deltaE": 14.051,
+          "iqr": [
+            66.0,
+            37.0,
+            34.0
+          ],
+          "pixels": 10000
+        },
+        {
+          "label": "右下草坪",
+          "rect": [
+            940,
+            400,
+            70,
+            100
+          ],
+          "hex": "#806E1F",
+          "h": 48.87,
+          "l": 46.765,
+          "c": 44.201,
+          "nearestId": 4,
+          "deltaE": 15.088,
+          "iqr": [
+            21.0,
+            17.0,
+            19.0
+          ],
+          "pixels": 7000
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "totoro",
+      "title": "龙猫",
+      "originalTitle": "となりのトトロ / My Neighbor Totoro",
+      "year": 1988,
+      "director": "宫崎骏",
+      "season": "summer",
+      "seasonLabel": "夏意 · 画面观感",
+      "seasonEvidence": "以繁密叶丛和荫凉草地归入夏意；本镜头的剧情月份未确认。",
+      "themes": [
+        "animation",
+        "nature",
+        "family",
+        "fantasy"
+      ],
+      "caption": "小梅身边的草地由黄绿、翠绿和偏蓝的阴影绿组成。",
+      "analysis": "动画可以直接组织绿色的冷暖层次：亮部托起人物，深绿围出一个安全而神秘的空间。取色来自吉卜力官方公开画面。",
+      "image": "assets/frames/totoro.jpg",
+      "width": 1920,
+      "height": 1038,
+      "sha256": "584ee226e62cffd817acb7b572081b577c6c218a454b903374ec846d45dfa726",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://www.ghibli.jp/works/totoro/",
+      "sourceImage": "https://www.ghibli.jp/gallery/totoro021.jpg",
+      "frameLabel": "totoro021.jpg；时间码未知",
+      "sourceName": "Studio Ghibli",
+      "sourceKind": "官方公开场面写真",
+      "versionNote": "吉卜力官方网站公开画面；未标明对应发行版本",
+      "rightsNote": "吉卜力允许在常识范围内使用公开场面写真；并非开放版权许可，权利仍归各权利人。",
+      "samples": [
+        {
+          "label": "前景亮草",
+          "rect": [
+            557,
+            913,
+            326,
+            73
+          ],
+          "hex": "#587D34",
+          "h": 90.41,
+          "l": 48.247,
+          "c": 43.833,
+          "nearestId": 4,
+          "deltaE": 8.355,
+          "iqr": [
+            21.0,
+            25.0,
+            15.0
+          ],
+          "pixels": 23798
+        },
+        {
+          "label": "右侧苔草",
+          "rect": [
+            1382,
+            280,
+            230,
+            104
+          ],
+          "hex": "#4D7E48",
+          "h": 114.44,
+          "l": 48.218,
+          "c": 37.176,
+          "nearestId": 4,
+          "deltaE": 8.352,
+          "iqr": [
+            27.0,
+            30.0,
+            47.0
+          ],
+          "pixels": 23920
+        },
+        {
+          "label": "左侧阴影叶丛",
+          "rect": [
+            58,
+            135,
+            230,
+            249
+          ],
+          "hex": "#1D4733",
+          "h": 151.43,
+          "l": 26.753,
+          "c": 21.634,
+          "nearestId": 4,
+          "deltaE": 16.75,
+          "iqr": [
+            12.0,
+            31.0,
+            26.0
+          ],
+          "pixels": 57270
+        }
+      ],
+      "colorProfile": "嵌入 ICC：IEC 61966-2.1 Default RGB colour space - sRGB；仅测量缓冲区转换至 sRGB，图像文件未改写"
+    },
+    {
+      "id": "harry",
+      "title": "怪尸案",
+      "originalTitle": "The Trouble with Harry",
+      "year": 1955,
+      "director": "Alfred Hitchcock",
+      "season": "autumn",
+      "seasonLabel": "秋季 · 画面依据",
+      "seasonEvidence": "红橙秋叶与仍保持绿色的草地同时出现；分组依据所选画面。",
+      "themes": [
+        "nature",
+        "suspense"
+      ],
+      "caption": "秋叶越红，草地里偏黄、偏暗的绿就越明显。",
+      "analysis": "秋天不只有橙色。留在草地与暗处树冠里的绿色，为鲜艳秋叶提供底色，也让这幅田园景象带着微妙的不协调。",
+      "image": "assets/frames/harry.jpg",
+      "width": 1021,
+      "height": 552,
+      "sha256": "82fbdcff6098e537eb89e3870921950d0d9d949fc16f90343282d907b6b4b3f1",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2018/07/03/the-trouble-with-harry/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/16 (1209).jpg?bwg=1547474712",
+      "frameLabel": "16 (1209)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "前景草地",
+          "rect": [
+            130,
+            447,
+            200,
+            33
+          ],
+          "hex": "#4E5738",
+          "h": 77.42,
+          "l": 35.443,
+          "c": 19.395,
+          "nearestId": 4,
+          "deltaE": 7.865,
+          "iqr": [
+            8.0,
+            7.0,
+            8.0
+          ],
+          "pixels": 6600
+        },
+        {
+          "label": "远坡草地",
+          "rect": [
+            525,
+            373,
+            80,
+            16
+          ],
+          "hex": "#51594E",
+          "h": 103.64,
+          "l": 36.826,
+          "c": 7.647,
+          "nearestId": 4,
+          "deltaE": 12.6,
+          "iqr": [
+            12.0,
+            15.0,
+            10.0
+          ],
+          "pixels": 1280
+        },
+        {
+          "label": "树冠暗叶",
+          "rect": [
+            915,
+            60,
+            30,
+            30
+          ],
+          "hex": "#2D3224",
+          "h": 81.43,
+          "l": 19.909,
+          "c": 9.761,
+          "nearestId": 4,
+          "deltaE": 20.826,
+          "iqr": [
+            80.25,
+            85.25,
+            75.0
+          ],
+          "pixels": 900
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "spring-seasons",
+      "title": "春夏秋冬又一春",
+      "originalTitle": "Spring, Summer, Fall, Winter… and Spring",
+      "year": 2003,
+      "director": "金基德",
+      "season": "autumn",
+      "seasonLabel": "秋季 · 画面依据",
+      "seasonEvidence": "红叶与湖面同框；影片确有四季章节，这张图的具体时间码及发行版本未核实。",
+      "themes": [
+        "nature"
+      ],
+      "caption": "红叶横过画面，湖水保留了安静的青绿与暗绿。",
+      "analysis": "秋色并不需要占满整个画面。湖水和林荫中的冷绿让红叶显得更鲜明。保留原版的这张例子，但来源只有 844 × 460，细节有限。",
+      "image": "assets/frames/spring-seasons.jpg",
+      "width": 844,
+      "height": 460,
+      "sha256": "a9e018d00023198db808466788f34b3e92e8059241fb644b2906e506d6b4bd7f",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [
+        {
+          "title": "Pandora Film 发行介绍与四季章节",
+          "url": "https://www.pandorafilm.com/filmography/spring-summer-fall-winter-and-spring.html"
+        }
+      ],
+      "sourceName": "Alina Trache 影评博客",
+      "sourcePage": "https://alinatrache.wordpress.com/2009/11/16/spring-summer-fall-winter-and-spring/",
+      "sourceImage": "https://alinatrache.wordpress.com/wp-content/uploads/2009/11/ssfws_10.jpg",
+      "sourceKind": "第三方网页截图",
+      "frameLabel": "ssfws_10.jpg；时间码未知",
+      "versionNote": "发行版本未知；来源原图仅 844 × 460，未放大",
+      "rightsNote": "第三方博客配图；不表示取得电影图像的再授权。",
+      "samples": [
+        {
+          "label": "湖水与反光",
+          "rect": [
+            480,
+            300,
+            140,
+            60
+          ],
+          "hex": "#4F573C",
+          "h": 77.78,
+          "l": 35.606,
+          "c": 16.954,
+          "nearestId": 4,
+          "deltaE": 8.489,
+          "iqr": [
+            18.0,
+            17.0,
+            18.0
+          ],
+          "pixels": 8400
+        },
+        {
+          "label": "湖岸暗树林",
+          "rect": [
+            470,
+            158,
+            90,
+            32
+          ],
+          "hex": "#27352F",
+          "h": 154.29,
+          "l": 20.761,
+          "c": 7.6,
+          "nearestId": 4,
+          "deltaE": 21.962,
+          "iqr": [
+            13.0,
+            13.0,
+            12.0
+          ],
+          "pixels": 2880
+        },
+        {
+          "label": "上方绿叶",
+          "rect": [
+            471,
+            96,
+            69,
+            36
+          ],
+          "hex": "#616538",
+          "h": 65.33,
+          "l": 41.429,
+          "c": 26.543,
+          "nearestId": 4,
+          "deltaE": 5.15,
+          "iqr": [
+            61.25,
+            57.0,
+            44.25
+          ],
+          "pixels": 2484
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "far-from-heaven",
+      "title": "远离天堂",
+      "originalTitle": "Far from Heaven",
+      "year": 2002,
+      "director": "Todd Haynes",
+      "season": "autumn",
+      "seasonLabel": "秋季 · 画面依据",
+      "seasonEvidence": "橙红树叶、深绿灌木与人物衣服同框；分组依据画面中的秋叶。",
+      "themes": [
+        "romance",
+        "urban"
+      ],
+      "caption": "浓重秋叶包围着暗绿的树篱，绿色围巾又把环境颜色带回人物。",
+      "analysis": "橙、紫、绿彼此衬托。花园看似丰盛，深色绿篱却也像一道边界；这是对画面情绪的阅读，不是制作意图的断言。",
+      "image": "assets/frames/far-from-heaven.jpg",
+      "width": 1023,
+      "height": 552,
+      "sha256": "10fbe93ef0a0469bc5631398655d9be3dead86951b7beca78dc1af694d308a1e",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2013/04/05/far-from-heaven/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/37 (375).jpg?bwg=1547216267",
+      "frameLabel": "37 (375)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "左侧灌木",
+          "rect": [
+            72,
+            243,
+            133,
+            99
+          ],
+          "hex": "#1D2003",
+          "h": 66.21,
+          "l": 11.281,
+          "c": 16.765,
+          "nearestId": 4,
+          "deltaE": 24.757,
+          "iqr": [
+            21.0,
+            16.0,
+            10.0
+          ],
+          "pixels": 13167
+        },
+        {
+          "label": "中景绿篱",
+          "rect": [
+            368,
+            304,
+            72,
+            66
+          ],
+          "hex": "#373D07",
+          "h": 66.67,
+          "l": 24.21,
+          "c": 31.631,
+          "nearestId": 4,
+          "deltaE": 16.406,
+          "iqr": [
+            13.0,
+            12.0,
+            10.0
+          ],
+          "pixels": 4752
+        },
+        {
+          "label": "绿色围巾",
+          "rect": [
+            574,
+            372,
+            28,
+            64
+          ],
+          "hex": "#38472A",
+          "h": 91.03,
+          "l": 28.153,
+          "c": 19.706,
+          "nearestId": 4,
+          "deltaE": 12.95,
+          "iqr": [
+            70.0,
+            67.0,
+            51.25
+          ],
+          "pixels": 1792
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "fargo",
+      "title": "冰血暴",
+      "originalTitle": "Fargo",
+      "year": 1996,
+      "director": "Joel Coen",
+      "season": "winter",
+      "seasonLabel": "冬季 · 画面依据",
+      "seasonEvidence": "积雪与覆雪常绿树清晰可见；分组依据所选镜头。",
+      "themes": [
+        "suspense",
+        "nature"
+      ],
+      "caption": "大片白雪之间，松针只剩下很低彩度的灰绿。",
+      "analysis": "冬季的绿常接近灰色。此处保留雪地中的常绿树作为边界例子；当彩度很低时，色相角本身并不可靠。",
+      "image": "assets/frames/fargo.jpg",
+      "width": 988,
+      "height": 553,
+      "sha256": "9ceb1296c82860bdf11949af02a04a95acb653b85fbd9f7f062a54a55ae05f8e",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2012/07/10/fargo/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/61 (320).jpg?bwg=1547216516",
+      "frameLabel": "61 (320)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "阴影松针",
+          "rect": [
+            440,
+            240,
+            35,
+            30
+          ],
+          "hex": "#1E221D",
+          "h": 108.0,
+          "l": 12.664,
+          "c": 4.137,
+          "nearestId": 4,
+          "deltaE": 27.06,
+          "iqr": [
+            15.0,
+            18.0,
+            17.0
+          ],
+          "pixels": 1050
+        },
+        {
+          "label": "松枝与薄雪",
+          "rect": [
+            435,
+            170,
+            35,
+            30
+          ],
+          "hex": "#2F3735",
+          "h": 165.0,
+          "l": 22.28,
+          "c": 3.873,
+          "nearestId": 4,
+          "deltaE": 22.861,
+          "iqr": [
+            62.0,
+            68.0,
+            70.5
+          ],
+          "pixels": 1050
+        },
+        {
+          "label": "左侧常绿树",
+          "rect": [
+            21,
+            256,
+            42,
+            32
+          ],
+          "hex": "#303A34",
+          "h": 144.0,
+          "l": 23.346,
+          "c": 6.099,
+          "nearestId": 4,
+          "deltaE": 20.687,
+          "iqr": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "pixels": 1344
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "revenant",
+      "title": "荒野猎人",
+      "originalTitle": "The Revenant",
+      "year": 2015,
+      "director": "Alejandro G. Iñárritu",
+      "season": "winter",
+      "seasonLabel": "冬季 · 画面依据",
+      "seasonEvidence": "覆雪山林与冰冷的山谷构成直接的冬季画面依据。",
+      "themes": [
+        "nature"
+      ],
+      "caption": "常绿林在这一帧里明显偏向青蓝，山谷被低彩度的冷色包围。",
+      "analysis": "树木是常绿植物，并不代表截图中的像素一定是绿色。这个例子保留青蓝色倾向，提醒我们区分物体名称与实际显示颜色。",
+      "image": "assets/frames/revenant.jpg",
+      "width": 1280,
+      "height": 546,
+      "sha256": "d9cb7bbeb5a081862db46b676f1c242e8e960005b865301c2fe2225ef8efeaf4",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2017/08/29/the-revenant/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/revenant059.jpg?bwg=1546976250",
+      "frameLabel": "revenant059；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "远山常绿林",
+          "rect": [
+            1040,
+            240,
+            100,
+            60
+          ],
+          "hex": "#21333A",
+          "h": 196.8,
+          "l": 20.029,
+          "c": 8.479,
+          "nearestId": 4,
+          "deltaE": 28.276,
+          "iqr": [
+            15.0,
+            17.0,
+            17.0
+          ],
+          "pixels": 6000
+        },
+        {
+          "label": "近处松枝",
+          "rect": [
+            51,
+            407,
+            11,
+            23
+          ],
+          "hex": "#1F2E30",
+          "h": 187.06,
+          "l": 17.73,
+          "c": 6.538,
+          "nearestId": 4,
+          "deltaE": 26.725,
+          "iqr": [
+            21.0,
+            24.0,
+            27.0
+          ],
+          "pixels": 253
+        },
+        {
+          "label": "山脚树林",
+          "rect": [
+            570,
+            322,
+            75,
+            24
+          ],
+          "hex": "#30444C",
+          "h": 197.14,
+          "l": 27.53,
+          "c": 9.204,
+          "nearestId": 4,
+          "deltaE": 25.509,
+          "iqr": [
+            13.0,
+            15.0,
+            17.0
+          ],
+          "pixels": 1800
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "carol",
+      "title": "卡罗尔",
+      "originalTitle": "Carol",
+      "year": 2015,
+      "director": "Todd Haynes",
+      "season": "winter",
+      "seasonLabel": "冬季 · 画面依据",
+      "seasonEvidence": "圣诞树摊和画面中的 XMAS 字样构成节日与冬季语境。",
+      "themes": [
+        "romance",
+        "urban"
+      ],
+      "caption": "圣诞树呈现阴冷的灰绿，人物暖褐色大衣与红色招牌成为对照。",
+      "analysis": "绿色属于城市里被出售的自然，也属于冬日街景。相比夏日田野，这里的绿更暗、更冷，亮度与彩度都被压低。",
+      "image": "assets/frames/carol.jpg",
+      "width": 1280,
+      "height": 688,
+      "sha256": "cb9d22feaaede0bbd3d6bacf58000d851f6b791ef19ed93b1755b1e71df21045",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2016/04/01/carol/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/2234.jpg?bwg=1547038220",
+      "frameLabel": "22；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "左侧圣诞树",
+          "rect": [
+            19,
+            275,
+            102,
+            151
+          ],
+          "hex": "#1D2B20",
+          "h": 132.86,
+          "l": 15.969,
+          "c": 10.288,
+          "nearestId": 4,
+          "deltaE": 23.28,
+          "iqr": [
+            12.75,
+            15.0,
+            15.0
+          ],
+          "pixels": 15402
+        },
+        {
+          "label": "中央下方松枝",
+          "rect": [
+            576,
+            482,
+            205,
+            110
+          ],
+          "hex": "#18261C",
+          "h": 137.14,
+          "l": 13.616,
+          "c": 9.927,
+          "nearestId": 4,
+          "deltaE": 24.801,
+          "iqr": [
+            16.0,
+            24.0,
+            18.0
+          ],
+          "pixels": 22550
+        },
+        {
+          "label": "右侧松枝",
+          "rect": [
+            781,
+            248,
+            77,
+            144
+          ],
+          "hex": "#1A291E",
+          "h": 136.0,
+          "l": 14.949,
+          "c": 10.67,
+          "nearestId": 4,
+          "deltaE": 23.852,
+          "iqr": [
+            12.0,
+            15.0,
+            13.0
+          ],
+          "pixels": 11088
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "amelie",
+      "title": "天使爱美丽",
+      "originalTitle": "Le Fabuleux Destin d’Amélie Poulain",
+      "year": 2001,
+      "director": "Jean-Pierre Jeunet",
+      "season": "unseasoned",
+      "seasonLabel": "跨季节 · 都市与爱情",
+      "seasonEvidence": "本例讨论黄绿、深绿与红衣的配色关系；不据叶色判断剧情季节。",
+      "themes": [
+        "romance",
+        "urban"
+      ],
+      "caption": "桥边树叶、河水和栏杆组成黄绿到深绿的层次，红衣人物从中跳出。",
+      "analysis": "这里的绿具有明显的风格感。红与绿的对照塑造亲密而略带奇异的城市童话；数值只描述此处的网页图像。",
+      "image": "assets/frames/amelie.jpg",
+      "width": 1018,
+      "height": 436,
+      "sha256": "4d756161543eea86ed808c7b95e5b6eac9a32f82b221e048412f9ae7d8de5c41",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2012/11/05/amelie/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/17 (63).jpg?bwg=1547143599",
+      "frameLabel": "17 (63)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "右上亮叶",
+          "rect": [
+            692,
+            35,
+            183,
+            78
+          ],
+          "hex": "#4C7008",
+          "h": 80.77,
+          "l": 42.977,
+          "c": 54.105,
+          "nearestId": 4,
+          "deltaE": 9.903,
+          "iqr": [
+            78.0,
+            75.0,
+            33.0
+          ],
+          "pixels": 14274
+        },
+        {
+          "label": "桥下河水",
+          "rect": [
+            468,
+            305,
+            183,
+            70
+          ],
+          "hex": "#354B06",
+          "h": 79.13,
+          "l": 28.908,
+          "c": 39.536,
+          "nearestId": 4,
+          "deltaE": 13.127,
+          "iqr": [
+            77.0,
+            86.0,
+            24.0
+          ],
+          "pixels": 12810
+        },
+        {
+          "label": "左侧暗叶",
+          "rect": [
+            20,
+            52,
+            102,
+            122
+          ],
+          "hex": "#365605",
+          "h": 83.7,
+          "l": 32.812,
+          "c": 45.403,
+          "nearestId": 4,
+          "deltaE": 11.461,
+          "iqr": [
+            101.0,
+            113.0,
+            45.0
+          ],
+          "pixels": 12444
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "matrix",
+      "title": "黑客帝国",
+      "originalTitle": "The Matrix",
+      "year": 1999,
+      "director": "Lana Wachowski、Lilly Wachowski",
+      "season": "unseasoned",
+      "seasonLabel": "跨季节 · 人造空间",
+      "seasonEvidence": "室内墙面与人物共同呈现偏绿色调；季节不构成本例的组织依据。",
+      "themes": [
+        "scifi",
+        "suspense",
+        "urban"
+      ],
+      "caption": "审讯室的墙面偏灰绿，深色西装与皮肤也被同一环境色包围。",
+      "analysis": "绿色不来自植物，而来自室内空间的综合色调。较窄的色彩范围让人物与背景之间产生冷静、压迫的联系；发行版本未确认。",
+      "image": "assets/frames/matrix.jpg",
+      "width": 1280,
+      "height": 551,
+      "sha256": "d2d07d85a7cb87f3e0352db0fb1e62c681141ce7adef8e4f836a05f5c8fea229",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2017/02/13/the-matrix/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thematrix010.jpg?bwg=1546895512",
+      "frameLabel": "thematrix010；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "左侧墙面",
+          "rect": [
+            50,
+            99,
+            128,
+            121
+          ],
+          "hex": "#688B67",
+          "h": 118.33,
+          "l": 54.435,
+          "c": 25.043,
+          "nearestId": 14,
+          "deltaE": 10.035,
+          "iqr": [
+            6.0,
+            5.0,
+            6.0
+          ],
+          "pixels": 15488
+        },
+        {
+          "label": "右侧墙面",
+          "rect": [
+            973,
+            121,
+            205,
+            132
+          ],
+          "hex": "#6A9469",
+          "h": 118.6,
+          "l": 57.331,
+          "c": 29.602,
+          "nearestId": 14,
+          "deltaE": 8.225,
+          "iqr": [
+            6.0,
+            6.0,
+            6.0
+          ],
+          "pixels": 27060
+        },
+        {
+          "label": "下方墙面",
+          "rect": [
+            64,
+            342,
+            128,
+            66
+          ],
+          "hex": "#6A8D69",
+          "h": 118.33,
+          "l": 55.209,
+          "c": 24.978,
+          "nearestId": 14,
+          "deltaE": 10.025,
+          "iqr": [
+            5.0,
+            4.0,
+            5.0
+          ],
+          "pixels": 8448
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "vertigo",
+      "title": "迷魂记",
+      "originalTitle": "Vertigo",
+      "year": 1958,
+      "director": "Alfred Hitchcock",
+      "season": "unseasoned",
+      "seasonLabel": "跨季节 · 光与幻影",
+      "seasonEvidence": "本例关注室内绿色光线及人物剪影；不作季节判断。",
+      "themes": [
+        "suspense",
+        "romance"
+      ],
+      "caption": "侧面的暗色轮廓被亮青绿色窗帘包围，绿色像一道发光的幕布。",
+      "analysis": "高亮的青绿与近黑轮廓相邻，人物因此显得疏离而不真实。绿色在这里可以被读成记忆、欲望与幻影的颜色。",
+      "image": "assets/frames/vertigo.jpg",
+      "width": 1006,
+      "height": 551,
+      "sha256": "6dd78bc9647fb60d31bf2e698eb90ef8be294a3877c228a8b5141d939fc8a7e1",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2013/02/28/vertigo/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/51 (1243).jpg?bwg=1547479422",
+      "frameLabel": "51 (1243)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "左侧亮窗帘",
+          "rect": [
+            80,
+            55,
+            151,
+            121
+          ],
+          "hex": "#528A6A",
+          "h": 145.71,
+          "l": 52.961,
+          "c": 28.439,
+          "nearestId": 14,
+          "deltaE": 10.5,
+          "iqr": [
+            39.0,
+            46.0,
+            30.0
+          ],
+          "pixels": 18271
+        },
+        {
+          "label": "右侧青绿光",
+          "rect": [
+            744,
+            132,
+            121,
+            121
+          ],
+          "hex": "#477A57",
+          "h": 138.82,
+          "l": 46.904,
+          "c": 29.002,
+          "nearestId": 4,
+          "deltaE": 9.242,
+          "iqr": [
+            35.0,
+            52.0,
+            39.0
+          ],
+          "pixels": 14641
+        },
+        {
+          "label": "中段绿色窗帘",
+          "rect": [
+            300,
+            50,
+            120,
+            180
+          ],
+          "hex": "#245240",
+          "h": 156.52,
+          "l": 31.299,
+          "c": 21.549,
+          "nearestId": 4,
+          "deltaE": 15.04,
+          "iqr": [
+            38.0,
+            61.0,
+            48.0
+          ],
+          "pixels": 21600
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "fallen-angels",
+      "title": "堕落天使",
+      "originalTitle": "Fallen Angels",
+      "year": 1995,
+      "director": "王家卫",
+      "season": "unseasoned",
+      "seasonLabel": "跨季节 · 夜间城市",
+      "seasonEvidence": "所选为隧道中的摩托车画面；按人造光与都市夜景归类。",
+      "themes": [
+        "urban",
+        "romance"
+      ],
+      "caption": "弯曲隧道里的黄绿光线包围着摩托车，红色尾灯成为很小的暖色焦点。",
+      "analysis": "隧道的绿与树叶的绿有完全不同的情绪。冷暖混杂的人工照明，加上倾斜构图，让夜晚显得流动而不稳定。",
+      "image": "assets/frames/fallen-angels.jpg",
+      "width": 1280,
+      "height": 708,
+      "sha256": "99d60bb56611040d4a825db5854c7cdb9a75d686bda03106c05732e4e5d4f29b",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2014/09/25/fallen-angels/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/43 (364).jpg?bwg=1547215973",
+      "frameLabel": "43 (364)；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "隧道左侧墙面",
+          "rect": [
+            77,
+            142,
+            192,
+            127
+          ],
+          "hex": "#112817",
+          "h": 135.65,
+          "l": 13.818,
+          "c": 16.295,
+          "nearestId": 4,
+          "deltaE": 23.663,
+          "iqr": [
+            5.0,
+            8.0,
+            6.0
+          ],
+          "pixels": 24384
+        },
+        {
+          "label": "隧道右侧墙面",
+          "rect": [
+            947,
+            212,
+            205,
+            142
+          ],
+          "hex": "#304F37",
+          "h": 133.55,
+          "l": 30.631,
+          "c": 20.412,
+          "nearestId": 4,
+          "deltaE": 12.825,
+          "iqr": [
+            11.0,
+            15.0,
+            9.0
+          ],
+          "pixels": 29110
+        },
+        {
+          "label": "路面绿色反光",
+          "rect": [
+            307,
+            566,
+            218,
+            92
+          ],
+          "hex": "#2F462F",
+          "h": 120.0,
+          "l": 27.269,
+          "c": 18.187,
+          "nearestId": 4,
+          "deltaE": 14.531,
+          "iqr": [
+            6.0,
+            6.0,
+            5.0
+          ],
+          "pixels": 20056
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "green-knight",
+      "title": "绿衣骑士",
+      "originalTitle": "The Green Knight",
+      "year": 2021,
+      "director": "David Lowery",
+      "season": "unseasoned",
+      "seasonLabel": "跨季节 · 森林奇幻",
+      "seasonEvidence": "本例关注苔藓、树木与雾气；不把影片整体季节套用到这一幻想段落。",
+      "themes": [
+        "fantasy",
+        "nature"
+      ],
+      "caption": "树根和石面上的苔藓带着柔和黄绿，阴影与薄雾则偏冷。",
+      "analysis": "森林的绿色与骨骸同框，把旺盛生长和死亡放在同一处。苔藓的绿是一种包裹感，而不是明亮田园里的轻快。",
+      "image": "assets/frames/green-knight.jpg",
+      "width": 1924,
+      "height": 1040,
+      "sha256": "7edda49fa3d877329be603993d3a02cf11ef265794874cc8b679b3d0673861ec",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://film-grab.com/2023/04/04/the-green-knight/",
+      "sourceImage": "https://film-grab.com/wp-content/uploads/photo-gallery/Green_Knight_22.jpg?bwg=1680015475",
+      "frameLabel": "Green Knight 22；时间码未知",
+      "sourceName": "FILMGRAB",
+      "sourceKind": "第三方电影帧图库",
+      "versionNote": "图库未标明所选帧的具体发行版本",
+      "rightsNote": "FILMGRAB 标注图像不得用于商业用途；电影版权仍归各权利人。",
+      "samples": [
+        {
+          "label": "左侧苔藓地面",
+          "rect": [
+            192,
+            510,
+            269,
+            166
+          ],
+          "hex": "#445A3A",
+          "h": 101.25,
+          "l": 35.687,
+          "c": 21.957,
+          "nearestId": 4,
+          "deltaE": 7.402,
+          "iqr": [
+            18.0,
+            20.0,
+            23.0
+          ],
+          "pixels": 44654
+        },
+        {
+          "label": "右侧岩石苔藓",
+          "rect": [
+            1270,
+            478,
+            212,
+            166
+          ],
+          "hex": "#536551",
+          "h": 114.0,
+          "l": 40.8,
+          "c": 14.379,
+          "nearestId": 4,
+          "deltaE": 7.647,
+          "iqr": [
+            15.0,
+            15.0,
+            25.0
+          ],
+          "pixels": 35192
+        },
+        {
+          "label": "右侧阴影苔藓",
+          "rect": [
+            1520,
+            645,
+            285,
+            145
+          ],
+          "hex": "#3F4C3E",
+          "h": 115.71,
+          "l": 30.815,
+          "c": 10.663,
+          "nearestId": 4,
+          "deltaE": 14.045,
+          "iqr": [
+            27.0,
+            27.0,
+            22.0
+          ],
+          "pixels": 41325
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "stalker",
+      "title": "潜行者",
+      "originalTitle": "Stalker",
+      "year": 1979,
+      "director": "Andrei Tarkovsky",
+      "season": "unseasoned",
+      "seasonLabel": "跨季节 · 废墟与自然",
+      "seasonEvidence": "所选是人物穿过茂草的画面；没有把植被状态当作确定的剧情季节。",
+      "themes": [
+        "scifi",
+        "nature",
+        "suspense"
+      ],
+      "caption": "人物的暗色外衣与大片野草相邻，绿色细碎而不均匀。",
+      "analysis": "绿草覆盖了人物周围的空间，却没有带来田园的轻松。发行方公开剧照中的自然与废墟语境，让绿色可以被读成生长、遗弃与未知。",
+      "image": "assets/frames/stalker.jpg",
+      "width": 1480,
+      "height": 1080,
+      "sha256": "93fcba34af1ce2541f661b179c6c9571e2711a261f0f10e65284e602550fc152",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://www.janusfilms.com/films/1844",
+      "sourceImage": "https://s3.amazonaws.com/criterion-production/janus_promo_packages/66-/StalkerStills_original.zip",
+      "frameLabel": "28150id_014.jpg；时间码未知",
+      "sourceName": "Janus Films",
+      "sourceKind": "发行方公开剧照包",
+      "versionNote": "来自 Janus Films 的 Stills ZIP；页面介绍修复版，未逐张注明制版信息",
+      "rightsNote": "Janus Films 宣传资料中的单张剧照；电影图像版权不属于本项目。",
+      "samples": [
+        {
+          "label": "右侧高草",
+          "rect": [
+            1199,
+            302,
+            222,
+            238
+          ],
+          "hex": "#3A573A",
+          "h": 120.0,
+          "l": 34.027,
+          "c": 22.09,
+          "nearestId": 4,
+          "deltaE": 9.657,
+          "iqr": [
+            18.0,
+            25.0,
+            22.0
+          ],
+          "pixels": 52836
+        },
+        {
+          "label": "左侧草叶",
+          "rect": [
+            44,
+            400,
+            178,
+            238
+          ],
+          "hex": "#304A2E",
+          "h": 115.71,
+          "l": 28.703,
+          "c": 21.401,
+          "nearestId": 4,
+          "deltaE": 13.104,
+          "iqr": [
+            19.0,
+            27.0,
+            24.0
+          ],
+          "pixels": 42364
+        },
+        {
+          "label": "右下草地",
+          "rect": [
+            1125,
+            929,
+            266,
+            108
+          ],
+          "hex": "#334E2F",
+          "h": 112.26,
+          "l": 30.297,
+          "c": 23.038,
+          "nearestId": 4,
+          "deltaE": 11.753,
+          "iqr": [
+            27.0,
+            39.0,
+            28.0
+          ],
+          "pixels": 28728
+        }
+      ],
+      "colorProfile": "未嵌入 ICC；测量时假设为 sRGB（来源色域未独立确认）"
+    },
+    {
+      "id": "mononoke",
+      "title": "幽灵公主",
+      "originalTitle": "もののけ姫 / Princess Mononoke",
+      "year": 1997,
+      "director": "宫崎骏",
+      "season": "unseasoned",
+      "seasonLabel": "跨季节 · 生态与神话",
+      "seasonEvidence": "本例关注林间苔藓、树根与人物；未确认具体季节。",
+      "themes": [
+        "animation",
+        "fantasy",
+        "nature"
+      ],
+      "caption": "人物周围铺满黄绿苔藓，明亮地面与背后的暗绿岩壁拉开层次。",
+      "analysis": "森林在这里既是野性的环境，也是人物相互照料的场所。黄色、翠绿和灰绿交织，让动画里的自然保留丰富的质地。",
+      "image": "assets/frames/mononoke.jpg",
+      "width": 1920,
+      "height": 1038,
+      "sha256": "8ab143cc91e06a8cdb58c0b6aaebc867454dc1ef8665bec886995a081e0730b2",
+      "color": "green",
+      "acquired": "2026-10-26",
+      "seasonSources": [],
+      "sourcePage": "https://www.ghibli.jp/works/mononoke/",
+      "sourceImage": "https://www.ghibli.jp/gallery/mononoke027.jpg",
+      "frameLabel": "mononoke027.jpg；时间码未知",
+      "sourceName": "Studio Ghibli",
+      "sourceKind": "官方公开场面写真",
+      "versionNote": "吉卜力官方网站公开画面；未标明对应发行版本",
+      "rightsNote": "吉卜力允许在常识范围内使用公开场面写真；并非开放版权许可，权利仍归各权利人。",
+      "samples": [
+        {
+          "label": "右侧亮苔藓",
+          "rect": [
+            1550,
+            725,
+            210,
+            180
+          ],
+          "hex": "#7F821D",
+          "h": 61.78,
+          "l": 52.472,
+          "c": 52.095,
+          "nearestId": 4,
+          "deltaE": 15.187,
+          "iqr": [
+            25.0,
+            26.0,
+            32.0
+          ],
+          "pixels": 37800
+        },
+        {
+          "label": "上方阴影苔藓",
+          "rect": [
+            1420,
+            75,
+            250,
+            170
+          ],
+          "hex": "#2E3525",
+          "h": 86.25,
+          "l": 21.059,
+          "c": 11.235,
+          "nearestId": 4,
+          "deltaE": 19.591,
+          "iqr": [
+            10.0,
+            15.0,
+            6.0
+          ],
+          "pixels": 42500
+        },
+        {
+          "label": "下方绿色苔草",
+          "rect": [
+            420,
+            850,
+            270,
+            85
+          ],
+          "hex": "#576616",
+          "h": 71.25,
+          "l": 40.552,
+          "c": 43.989,
+          "nearestId": 4,
+          "deltaE": 8.32,
+          "iqr": [
+            10.0,
+            13.0,
+            21.0
+          ],
+          "pixels": 22950
+        }
+      ],
+      "colorProfile": "嵌入 ICC：IEC 61966-2.1 Default RGB colour space - sRGB；仅测量缓冲区转换至 sRGB，图像文件未改写"
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "name": "深肤色",
+      "hex": "#735143",
+      "h": 17.5,
+      "l": 37.727,
+      "c": 18.534
+    },
+    {
+      "id": 2,
+      "name": "浅肤色",
+      "hex": "#C49581",
+      "h": 17.91,
+      "l": 65.606,
+      "c": 22.905
+    },
+    {
+      "id": 3,
+      "name": "蓝天",
+      "hex": "#5D7B9D",
+      "h": 211.88,
+      "l": 50.601,
+      "c": 21.728
+    },
+    {
+      "id": 4,
+      "name": "叶绿",
+      "hex": "#5A6C41",
+      "h": 85.12,
+      "l": 43.183,
+      "c": 26.498
+    },
+    {
+      "id": 5,
+      "name": "蓝花",
+      "hex": "#8281B0",
+      "h": 241.28,
+      "l": 55.665,
+      "c": 26.98
+    },
+    {
+      "id": 6,
+      "name": "蓝绿",
+      "hex": "#63BFAB",
+      "h": 166.96,
+      "l": 71.454,
+      "c": 32.37
+    },
+    {
+      "id": 7,
+      "name": "橙",
+      "hex": "#DC7B2D",
+      "h": 26.74,
+      "l": 61.286,
+      "c": 64.728
+    },
+    {
+      "id": 8,
+      "name": "紫蓝",
+      "hex": "#485CA8",
+      "h": 227.5,
+      "l": 40.99,
+      "c": 46.043
+    },
+    {
+      "id": 9,
+      "name": "中红",
+      "hex": "#C35462",
+      "h": 352.43,
+      "l": 50.485,
+      "c": 47.86
+    },
+    {
+      "id": 10,
+      "name": "紫",
+      "hex": "#5B3B69",
+      "h": 281.74,
+      "l": 30.333,
+      "c": 31.608
+    },
+    {
+      "id": 11,
+      "name": "黄绿",
+      "hex": "#A0BD3E",
+      "h": 73.7,
+      "l": 72.373,
+      "c": 64.478
+    },
+    {
+      "id": 12,
+      "name": "橙黄",
+      "hex": "#E5A129",
+      "h": 38.3,
+      "l": 71.085,
+      "c": 68.646
+    },
+    {
+      "id": 13,
+      "name": "蓝",
+      "hex": "#2B3E93",
+      "h": 229.04,
+      "l": 29.575,
+      "c": 54.046
+    },
+    {
+      "id": 14,
+      "name": "绿",
+      "hex": "#479548",
+      "h": 120.77,
+      "l": 55.381,
+      "c": 52.342
+    },
+    {
+      "id": 15,
+      "name": "红",
+      "hex": "#B03038",
+      "h": 356.25,
+      "l": 40.626,
+      "c": 57.992
+    },
+    {
+      "id": 16,
+      "name": "黄",
+      "hex": "#EEC816",
+      "h": 49.44,
+      "l": 81.592,
+      "c": 80.194
+    },
+    {
+      "id": 17,
+      "name": "品红",
+      "hex": "#BC5496",
+      "h": 321.92,
+      "l": 50.963,
+      "c": 52.131
+    },
+    {
+      "id": 18,
+      "name": "青",
+      "hex": "#0088A6",
+      "h": 190.84,
+      "l": 52.241,
+      "c": 31.627
+    },
+    {
+      "id": 19,
+      "name": "白",
+      "hex": "#F5F5F0",
+      "h": 60.0,
+      "l": 96.414,
+      "c": 2.56
+    },
+    {
+      "id": 20,
+      "name": "中性 8",
+      "hex": "#C8C9C9",
+      "h": 180.0,
+      "l": 80.888,
+      "c": 0.365
+    },
+    {
+      "id": 21,
+      "name": "中性 6.5",
+      "hex": "#A0A1A1",
+      "h": 180.0,
+      "l": 66.164,
+      "c": 0.38
+    },
+    {
+      "id": 22,
+      "name": "中性 5",
+      "hex": "#787979",
+      "h": 180.0,
+      "l": 50.744,
+      "c": 0.4
+    },
+    {
+      "id": 23,
+      "name": "中性 3.5",
+      "hex": "#535455",
+      "h": 210.0,
+      "l": 35.666,
+      "c": 0.745
+    },
+    {
+      "id": 24,
+      "name": "黑",
+      "hex": "#323232",
+      "h": null,
+      "l": 20.788,
+      "c": 0.002
+    }
+  ],
+  "referenceSource": {
+    "source": "BabelColor RGB Coordinates of the Macbeth ColorChecker, Table 2, Avg. of 20 charts, sRGB (2006)",
+    "url": "https://babelcolor.com/index_htm_files/RGB%20Coordinates%20of%20the%20Macbeth%20ColorChecker.pdf",
+    "featuredIds": [
+      11,
+      4,
+      14,
+      6
+    ]
+  },
+  "method": {
+    "rgbStatistic": "per-channel median, rounded half up to 8-bit sRGB",
+    "colorSpace": "sRGB; CIELAB D65, CIE 1931 2-degree observer",
+    "distance": "CIEDE2000; minimum among four reference greens only",
+    "roi": "[x, y, width, height], zero-based source-image pixels, half-open bounds",
+    "iqr": "per-channel 75th minus 25th percentile, NumPy linear interpolation",
+    "lowChromaThreshold": 5
+  }
+}

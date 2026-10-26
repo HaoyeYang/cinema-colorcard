@@ -1,0 +1,132 @@
+{
+  "source": "BabelColor RGB Coordinates of the Macbeth ColorChecker, Table 2, Avg. of 20 charts, sRGB (2006)",
+  "url": "https://babelcolor.com/index_htm_files/RGB%20Coordinates%20of%20the%20Macbeth%20ColorChecker.pdf",
+  "featuredIds": [
+    11,
+    4,
+    14,
+    6
+  ],
+  "references": [
+    {
+      "id": 1,
+      "name": "深肤色",
+      "hex": "#735143"
+    },
+    {
+      "id": 2,
+      "name": "浅肤色",
+      "hex": "#C49581"
+    },
+    {
+      "id": 3,
+      "name": "蓝天",
+      "hex": "#5D7B9D"
+    },
+    {
+      "id": 4,
+      "name": "叶绿",
+      "hex": "#5A6C41"
+    },
+    {
+      "id": 5,
+      "name": "蓝花",
+      "hex": "#8281B0"
+    },
+    {
+      "id": 6,
+      "name": "蓝绿",
+      "hex": "#63BFAB"
+    },
+    {
+      "id": 7,
+      "name": "橙",
+      "hex": "#DC7B2D"
+    },
+    {
+      "id": 8,
+      "name": "紫蓝",
+      "hex": "#485CA8"
+    },
+    {
+      "id": 9,
+      "name": "中红",
+      "hex": "#C35462"
+    },
+    {
+      "id": 10,
+      "name": "紫",
+      "hex": "#5B3B69"
+    },
+    {
+      "id": 11,
+      "name": "黄绿",
+      "hex": "#A0BD3E"
+    },
+    {
+      "id": 12,
+      "name": "橙黄",
+      "hex": "#E5A129"
+    },
+    {
+      "id": 13,
+      "name": "蓝",
+      "hex": "#2B3E93"
+    },
+    {
+      "id": 14,
+      "name": "绿",
+      "hex": "#479548"
+    },
+    {
+      "id": 15,
+      "name": "红",
+      "hex": "#B03038"
+    },
+    {
+      "id": 16,
+      "name": "黄",
+      "hex": "#EEC816"
+    },
+    {
+      "id": 17,
+      "name": "品红",
+      "hex": "#BC5496"
+    },
+    {
+      "id": 18,
+      "name": "青",
+      "hex": "#0088A6"
+    },
+    {
+      "id": 19,
+      "name": "白",
+      "hex": "#F5F5F0"
+    },
+    {
+      "id": 20,
+      "name": "中性 8",
+      "hex": "#C8C9C9"
+    },
+    {
+      "id": 21,
+      "name": "中性 6.5",
+      "hex": "#A0A1A1"
+    },
+    {
+      "id": 22,
+      "name": "中性 5",
+      "hex": "#787979"
+    },
+    {
+      "id": 23,
+      "name": "中性 3.5",
+      "hex": "#535455"
+    },
+    {
+      "id": 24,
+      "name": "黑",
+      "hex": "#323232"
+    }
+  ]
+}

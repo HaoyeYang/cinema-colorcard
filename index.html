@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>电影里的绿 · Cinema Colorcard</title>
+  <meta name="description" content="Cinema Colorcard：以原始剧照与量化色样整理的电影绿色图谱。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#atlas">跳到影片图谱</a>
+
+  <header class="masthead">
+    <div class="wrap">
+      <p class="wordmark" lang="en">Cinema Colorcard</p>
+      <h1 id="page-title">电影里的绿</h1>
+      <p class="lede">从电影画面中取出绿色：保留原始图像，测量三个区域的颜色，并与四种参考绿并排对照。绿色是当前的色彩章节；之后计划整理蓝、红、黄等其他颜色。</p>
+      <p class="stats" id="stats" aria-live="polite"></p>
+      <nav class="chapter-nav" aria-label="章节导航">
+        <a href="#atlas">浏览影片 ↓</a>
+        <a href="#filters-title">按季节与主题筛选</a>
+        <a href="#method-title">取色方法</a>
+      </nav>
+      <div class="season-strip" aria-label="四季画面预览">
+        <a href="#season-spring"><img src="assets/frames/pride-prejudice.jpg" width="1280" height="544" alt="春意：傲慢与偏见中的明亮草地"><span>春 / 初生</span></a>
+        <a href="#season-summer"><img src="assets/frames/totoro.jpg" width="1920" height="1038" alt="夏意：龙猫里的繁密草木"><span>夏 / 丰盛</span></a>
+        <a href="#season-autumn"><img src="assets/frames/harry.jpg" width="1021" height="552" alt="秋：怪尸案中红叶之间的绿色草地"><span>秋 / 交织</span></a>
+        <a href="#season-winter"><img src="assets/frames/revenant.jpg" width="1280" height="546" alt="冬：荒野猎人里的覆雪常绿林"><span>冬 / 冷寂</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap section" aria-labelledby="refs-title">
+      <h2 id="refs-title">参考绿</h2>
+      <p class="note">以下色块仅用于网页展示与比较，不是校色目标，也未用于修正任何画面。</p>
+      <ul class="ref-grid ref-grid--featured" id="refs-featured"></ul>
+      <details class="disclosure" id="refs-all-wrap">
+        <summary>展开全部 24 个参考色</summary>
+        <ul class="ref-grid ref-grid--all" id="refs-all"></ul>
+      </details>
+    </section>
+
+    <section class="wrap section" aria-labelledby="filters-title">
+      <h2 id="filters-title">筛选</h2>
+      <form class="filters" id="filters" role="search" onsubmit="return false">
+        <div class="filter-row">
+          <label class="search" for="q">
+            <span>片名搜索</span>
+            <input type="search" id="q" name="q" autocomplete="off" placeholder="中文或原名">
+          </label>
+          <label class="toggle" for="roi-toggle">
+            <input type="checkbox" id="roi-toggle">
+            <span>在画面上显示取样区域</span>
+          </label>
+          <button type="button" class="btn" id="reset">重置筛选</button>
+        </div>
+        <fieldset class="chips-set">
+          <legend>季节</legend>
+          <div class="chips" id="season-chips"></div>
+        </fieldset>
+        <fieldset class="chips-set">
+          <legend>主题 <span class="muted">（多选时需同时满足）</span></legend>
+          <div class="chips" id="theme-chips"></div>
+        </fieldset>
+        <p class="note">季节分组区分“画面印象”与“剧情依据”：每部影片的季节说明会写明依据来源。季节与主题筛选同时生效。</p>
+      </form>
+      <p class="result-count" id="count" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="wrap section compare" id="compare" aria-labelledby="compare-title">
+      <div class="compare-head">
+        <h2 id="compare-title" tabindex="-1">并排对比</h2>
+        <button type="button" class="btn" id="compare-clear" disabled>清空对比</button>
+      </div>
+      <p class="note" id="compare-hint"></p>
+      <div class="compare-grid" id="compare-grid"></div>
+    </section>
+
+    <section class="wrap section" id="atlas" aria-labelledby="atlas-title" tabindex="-1">
+      <h2 id="atlas-title">影片</h2>
+      <div id="gallery"></div>
+      <p class="empty" id="empty" hidden></p>
+      <noscript>请启用 JavaScript 查看筛选、取色和影片卡片；完整记录也可在 <a href="SOURCES.md">SOURCES.md</a> 中阅读。</noscript>
+    </section>
+
+    <section class="wrap section method" aria-labelledby="method-title">
+      <h2 id="method-title">方法说明</h2>
+      <ul>
+        <li>网页保留来源图像的原始字节，未调色、未锐化，也未做 AI 放大。卡片中的缩小由浏览器常规完成；点击画面可查看原始像素尺寸。</li>
+        <li>带 ICC 色彩配置的图像仅在测量时转换到 sRGB；未标注配置的图像按 sRGB 处理。</li>
+        <li>数值只描述这一张网页图像，不代表经过校准的电影母版；不同发行版本、不同屏幕看到的颜色都会不同。</li>
+        <li>本项目不使用 ColorChecker 色卡校正任何画面；参考绿只是展示用的比较基准。</li>
+        <li>每个取样色是区域内 R、G、B 各通道的中位数，四舍五入到 8 位整数，不一定是画面中真实存在的某一个像素。HSL 色相 H 以度表示；C* 与 L* 为 CIELAB（D65）彩度与明度；ΔE00 为 CIEDE2000 色差。</li>
+        <li>C* 低于 5 时颜色接近灰色，色相数值不可靠。“最近参考绿”只表示四种参考绿中距离最小的一种，ΔE00 较大时并不代表相近。</li>
+        <li>季节归属会写明依据；颜色的含义解读属于策展人的诠释。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><a href="README.md">README</a> · <a href="SOURCES.md">图像来源 SOURCES</a> · <a href="https://github.com/HaoyeYang/cinema-colorcard" rel="noopener">GitHub</a></p>
+      <p class="muted">影片图像版权归各自权利人所有，不包含在本项目源代码许可之内。<span id="updated"></span></p>
+    </div>
+  </footer>
+
+  <dialog class="viewer" id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-bar">
+      <h2 id="viewer-title" class="viewer-title"></h2>
+      <div class="viewer-actions">
+        <button type="button" class="btn" id="viewer-mode" aria-pressed="false">原始像素尺寸</button>
+        <a class="btn" id="viewer-source" target="_blank" rel="noopener">来源页面</a>
+        <a class="btn" id="viewer-file" target="_blank" rel="noopener">打开原图文件</a>
+        <button type="button" class="btn" id="viewer-close">关闭</button>
+      </div>
+    </div>
+    <p class="viewer-meta muted" id="viewer-meta"></p>
+    <div class="viewer-stage" id="viewer-stage" tabindex="0" aria-label="图像区域，原始尺寸模式下可滚动">
+      <img id="viewer-img" alt="">
+    </div>
+  </dialog>
+
+  <script src="data/atlas.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
